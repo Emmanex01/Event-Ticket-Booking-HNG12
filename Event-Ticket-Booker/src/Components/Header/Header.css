@@ -1,0 +1,23 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin: 1rem auto;
+    border: solid 1px blue;
+    border-radius: 50px;
+    padding: 1rem;
+}
+
+.NavMenu{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.TicketBtn{
+    padding:1rem;
+    border-radius: 10px;
+}
