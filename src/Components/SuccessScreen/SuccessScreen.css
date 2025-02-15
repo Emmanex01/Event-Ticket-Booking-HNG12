@@ -1,6 +1,5 @@
 .successScreenContainer {
-    /* border: 1px solid yellow; */
-    padding: 1rem;
+    border: 1px solid yellow;
     border-radius: 20px;
     text-align: center;
     box-sizing: border-box;
@@ -17,7 +16,6 @@
   .successCardContainer {
     /* border: 1px solid red; */
     background-color: #19393f;
-    padding: 1rem;
     border-radius: 20px;
     margin: 0 auto;
   }
@@ -48,7 +46,6 @@
   
   .successCardDetailBox {
     background-color: #08343C;
-    padding: 1rem;
     border-radius: 20px;
     margin: 1rem 0;
   }
@@ -131,10 +128,19 @@
     .successBox {
       padding: 1rem 2rem;
     }
+
+    .successScreenContainer,
+    .successCardDetailBox,
+    .successCardContainer{
+      padding: 1rem;
+    }
   
     .successCardDetail {
       grid-template-columns: repeat(2, 1fr);
+      padding: 1rem;
     }
+
+
   
     .successBtn {
       grid-template-columns: repeat(2, 1fr);
