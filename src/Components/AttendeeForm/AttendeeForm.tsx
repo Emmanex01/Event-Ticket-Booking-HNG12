@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useRef} from 'react';
 import './AttendeeForm.css'
 import { IoMdCloudDownload } from "react-icons/io";
 
@@ -24,7 +24,7 @@ type Props = {
 
 
 
-const AttendeeForm: React.FC<Props> = ({onNext, formData, handleFormData, handleFileUpload, handleSubmit, errorMsg, prev}) => {
+const AttendeeForm: React.FC<Props> = ({formData, handleFormData, handleFileUpload, handleSubmit, errorMsg, prev}) => {
   const inputImgRef = useRef<HTMLInputElement>(null)
   
 

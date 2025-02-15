@@ -1,5 +1,4 @@
 import './SuccessScreen.css';
-import successImg from '../../assets/successImg.jpg'
 type Props = {
   formData: {
     fullName: string,
