@@ -1,0 +1,43 @@
+.StepIndicator{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eventContainer{
+    width: 90%;
+    padding: 2rem;
+    margin: 1rem auto;
+    /* border: solid 1px brown; */
+    background-color: #041e23;
+    border-radius: 20px;
+}
+
+.progressBar{
+    width: 100%;
+    height: 2px;
+    
+}
+
+.barIndicator{
+    background-color: #24A0B5;
+    height: 100%;
+}
+
+@media (min-width: 640px) and (max-width: 840px) {
+    .eventContainer{
+        width: 70%;
+    }
+}
+
+@media (min-width: 840px) and (max-width: 1024px) {
+    .eventContainer{
+        width: 60%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .eventContainer{
+        width: 50%;
+    }
+}

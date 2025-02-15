@@ -1,0 +1,75 @@
+.attendeeContainer{
+    border: 1px solid white;
+    padding: 1rem;
+    border-radius: 20px;
+    margin-top: 1rem;
+}
+
+.uploadPhotoContainer{
+
+}
+
+.profileContainer{
+    height: 150px;
+    background-color: black;
+    position: relative;
+    margin: 1rem 0;
+}
+
+.errorMsg{
+    color: red;
+    margin-top: 2px;
+}
+
+
+
+.profileImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profileBox{
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    width: 200px;
+    background-color: blue;
+    padding: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.inputfield{
+    margin-top: 1.5rem;
+}
+
+input,
+textarea{
+    width: 100%;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    outline: none;
+    padding: 1rem;
+}
+
+input{
+    height: 30px;
+}
+
+textarea{
+    height: 100px;
+}
+
+.btnContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 1rem;
+    gap: 10px;
+}

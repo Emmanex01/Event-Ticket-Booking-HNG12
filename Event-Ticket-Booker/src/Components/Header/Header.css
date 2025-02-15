@@ -9,8 +9,10 @@
     padding: 1rem;
 }
 
+
+
 .NavMenu{
-    display: flex;
+    display: none;
     gap: 1rem;
     list-style: none;
     justify-content: center;
@@ -18,6 +20,11 @@
 }
 
 .TicketBtn{
-    padding:1rem;
-    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media (min-width: 640px) {
+    .NavMenu{
+        display: flex;
+    }
 }

@@ -1,5 +1,6 @@
 import './Header.css';
 import Logo from '../../assets/Logo.png'
+import link from '../../assets/Link.png'
 
 const Header = () => {
   return (
@@ -14,7 +15,7 @@ const Header = () => {
           <li>About Projets</li>
         </ul>
       </div>
-      <button className='TicketBtn'>My Ticket</button>
+      <img className='TicketBtn' src={link} alt="" />
     </div>
   )
 }

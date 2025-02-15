@@ -1,0 +1,26 @@
+.mainConatiner{
+    background-color: #0A0C11;
+    color: white;
+}
+
+button{
+    border: solid 1px #24A0B5;
+    background-color: transparent;
+    color: #24A0B5;
+}
+
+button:active{
+    box-shadow: 4px 4px white;
+}
+
+.RightBtn {
+    border: none;
+    background-color: #24A0B5;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 transparent; /* Initial shadow state */
+    color: white;
+}
+
+.RightBtn:active {
+    box-shadow: 4px 4px #24A0B5;
+}

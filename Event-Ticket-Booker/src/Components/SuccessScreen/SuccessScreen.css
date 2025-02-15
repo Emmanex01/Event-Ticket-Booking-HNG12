@@ -1,0 +1,161 @@
+.successScreenContainer {
+    /* border: 1px solid yellow; */
+    padding: 1rem;
+    border-radius: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  .successScreenContainer > p {
+    margin-bottom: 2rem;
+    border-radius: 20px;
+  }
+  
+  .successCardContainer {
+    /* border: 1px solid red; */
+    background-color: #19393f;
+    padding: 1rem;
+    border-radius: 20px;
+    margin: 0 auto;
+  }
+  
+  .successBox {
+    padding: 1rem;
+  }
+  
+  .successCard {
+    /* border: 1px solid blueviolet; */
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .successImgBox {
+    margin: 1rem 0;
+  }
+  
+  .successImg {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .successCardDetailBox {
+    background-color: #08343C;
+    padding: 1rem;
+    border-radius: 20px;
+    margin: 1rem 0;
+  }
+  
+  .successCardDetail {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: start;
+  }
+
+  .L p, .R p, 
+.L h3, .R h3 {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  margin: 0.5rem 0;
+}
+
+.L h3, .R h3 {
+    font-size: 1rem; /* Adjust based on your needs */
+    line-height: 1.4;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .successCardDetail h3{
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+  
+  .L, .R {
+    border: 1px solid white;
+    padding-left: 4px;
+  }
+  
+  .L {
+    border-left: none;
+  }
+  
+  .R {
+    border-right: none;
+  }
+  
+  .first {
+    border-top: none;
+  }
+  
+  .successCardFooter {
+    text-align: start;
+    margin-top: 1rem;
+  }
+  
+  .successCardFooter .p {
+    margin: 1rem 0;
+  }
+  
+  .successBtn {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin: 2rem 0;
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .successBtn button {
+    padding: 1rem;
+    border-radius: 10px;
+    width: 100%;
+  }
+
+  .requestText{
+    overflow-wrap: break-word;
+  }
+  
+  /* Responsive Media Queries */
+  @media (min-width: 768px) {
+    .successBox {
+      padding: 1rem 2rem;
+    }
+  
+    .successCardDetail {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .successBtn {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+    }
+  
+    .successImg {
+      max-width: 300px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .successBox {
+      padding: 1rem 4rem;
+    }
+  
+    .successCard {
+      padding: 2rem;
+    }
+  
+    .successBtn button {
+      padding: 1rem 2rem;
+    }
+  }
